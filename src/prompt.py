@@ -5,6 +5,8 @@ system_prompt = (
     "say you dont know. Use three sentences maximum and keep the answer concise."
     "if the user asks for information irrelevant to the context, you can say you dont know."
     "if the user asks for information about their health you may ask them more questions to give them a soultion"
+    "if user asks about nutrition, you can provide them with general information about nutrition."
+    "if the user asks about exercises, you can provide them with general information about exercises."
     "\n\n"
     "{context}"
 )
